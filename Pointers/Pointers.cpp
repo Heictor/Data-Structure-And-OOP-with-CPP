@@ -19,11 +19,13 @@ int main(){
     pvar = &var;
     var = 20;
     //The pointer pvar will get var's memory address
-    cout<<pvar<<endl<<*pvar<<endl;
-    cout<<var<<endl<<&var<<endl;
+    cout<<"Pointer's content: "<<pvar<<endl<<"Content at pointer's direction: "<<*pvar<<endl;
+    cout<<"Variable's value: "<<var<<endl<<"Variable's Address: "<<&var<<endl;
 
+    //Using void method "foo" to change "var's" value using pointers
     foo(pvar);
-    cout<<*pvar<<endl<<var<<endl;
+
+    cout<<"New 'var' value: "<<var<<endl<<"Pointing the value with '*pvar' pointer: "<<*pvar<<endl;
 
     return 0;
 }

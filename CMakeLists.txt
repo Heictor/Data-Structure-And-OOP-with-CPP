@@ -3,4 +3,10 @@ project(Data_Structure_And_OOP_with_CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Data_Structure_And_OOP_with_CPP  Pointers/Pointers.cpp)
+add_executable(Data_Structure_And_OOP_with_CPP Pointers/main.cpp Struct/Basic_Struct.cpp)
+add_executable(Data_Structure_And_OOP_with_CPP_Pointers Pointers/Pointers.cpp)
+add_executable(Data_Structure_And_OOP_with_CPP_Pointer_N_Vectors Pointers/Pointer_N_Vector.cpp)
+add_executable(Data_Structure_And_OOP_with_CPP_New_N_Delete Pointers/New_N_Delete.cpp)
+add_executable(Data_Structure_And_OOP_with_CPP_Pointer_N_Array Pointers/Pointer_N_Array.cpp)
+add_executable(Data_Structure_And_OOP_with_CPP_Pointer_N_Strings Pointers/Pointers_N_Strings.cpp)
+add_executable(Data_Structure_And_OOP_with_CPP_Basic_Struct  Struct/Basic_Struct.cpp)
