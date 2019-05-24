@@ -9,6 +9,7 @@ using namespace std;
 void foo(int* n){
     *n = 15;
 }
+
 int main(){
     //Declare both variable and pointer
     int var = 10;
@@ -23,5 +24,6 @@ int main(){
 
     foo(pvar);
     cout<<*pvar<<endl<<var<<endl;
+
     return 0;
 }
