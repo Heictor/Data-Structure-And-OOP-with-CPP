@@ -12,12 +12,16 @@ typedef struct profile{
 }prof;
 
 int main(){
-    prof prof1;
+    prof p[3];
 
-    strcpy(prof1.name, "Heictor");
-    prof1.age = 19;
+    strcpy(p[0].name, "Heictor");
+    p[0].age = 19;
+    strcpy(p[1].name, "Brennus");
+    p[1].age = 20;    
 
-    cout<<"Name: "<<prof1.name<<endl;
-    cout<<"Age: "<<prof1.age<<endl;
+    cout<<"Name: "<<p[0].name<<endl;
+    cout<<"Age: "<<p[0].age<<endl;
+    cout<<"Name: "<<p[1].name<<endl;
+    cout<<"Age: "<<p[1].age<<endl;
     return 0;
 }
